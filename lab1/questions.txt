@@ -1,0 +1,23 @@
+/*Matthew Tolosa 
+9/25/20
+Title: Questions/Observations 
+Answers to the Lab 1 questions/observations 
+*/
+
+
+
+Step 3: Run the program by typing ./ExecutableName and take a note of your observation.
+	Observation: When I ran the program, there was segmentation fault 
+	
+
+Step 4: Re-run the program by typing ./ExecutableName  3000. Note that the delay in the loop depends on 
+	the command line argument you give, here the delay is 3000 microseconds.  
+		a.   Enter delays of 500 and 5000, what happens?.
+
+
+	Observation(s): When I typed 3000 to represent the delay in the loop. After doing that, both the child process and parents process iterated 100 times. Each iteration portrayed a number,
+			and went from 0-99. 
+		
+			a. When I typed 500, the child process prints out 13 and 14, before the parents process is able to print 13. The delay here is a lot faster then 3000 and 5000  
+			When I typed 5000, the child process prints out 11 and 12, before the parents process is able to print 12. 5000 has the longest delay, but still outputs the values quickly. 
+   

@@ -1,0 +1,26 @@
+/* Matthew Tolosa 
+Date: 10/02/20
+Description: Observations of the various network commands in Linux 
+*/
+
+a. netstat- The netstat command portrays content of network interfaces and has various options to it. The -a option displays
+the active internet connection and the established servers. The -r command reveals the routing table. The -g command displays the 
+group information for IPv4 and IPv6. The -i command shows a table of all the network interfaces. It can also show a specific interface.
+The -m command portrays a list of masqueraded connections. Finally, the -s command is summary of statistics for each protocol. 
+
+b. ifconfig - The ifconfig command is used to configure network interfaces. There are several options to manipulate the configurations
+of differnt network interfaces, such as assigning a new IP address.
+
+c. hostname - Allows for you to view the hostname of the system. In my case it is linux11119. You are able to also set the hostname
+
+d. ping - The ping command allows you to request information from a host through the ICMP protocol which then the host sends back a response
+
+e. traceroute - The traceroute command is able to trace the route packets taken from an IP network on their way to a given host.
+
+g. host/dig - The host/dig command performs DNS lookups. Thus I tried dig google.com and it returned to me the IP address, which is
+172.217.5.110
+
+h. route - the route command allows you to manipulate and alter the routing table 
+
+i. arp - the arp commands allows you to manipulate the Internet-Ethernet address translation tables and display neighboring cache 
+

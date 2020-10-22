@@ -1,0 +1,17 @@
+/*Matthew Tolosa
+Date: 10/02/20 
+Description: To compare and observe what happens when you ping three different hosts from three different continents 
+*/
+
+The three hosts that I chose were google.com, hostinger.com, and AlibabaCloud.com
+
+a. There was no packet loss when I pinged these three hosts 
+
+b. The RTT for hostinger.com was rtt min/avg/max/mdev = 6.450/6.832/7.760/0.379 ms  
+   The RTT for google.com was rtt min/avg/max/mdev = 2.233/2.445/3.015/0.213 ms
+   The RTT for AlibabaCloud.com was rtt min/avg/max/mdev = 172.398/172.933/176.435/1.008 ms
+
+c. In terms of where I am located and its relation to where these hosts are geographically located, it would make sense
+that google.com had the smallest ping, as the servers are located near to where I am geographically. The second smallest
+ping came from the host in Europe. This also makes sense, as distance wise from where I am located, in North America is smaller 
+than the distance from NA to Asia. 

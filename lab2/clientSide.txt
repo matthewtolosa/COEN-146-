@@ -1,0 +1,13 @@
+/* Matthew Tolosa
+Data: 10/02/20
+Description: Observing what happens when you connect to a web server after using the GET command 
+*/
+
+Observation: I noticed that a message was sent back, but it seems the request timed out initially. 
+
+· What is the name of the file that is being retrieved in this GET message? 
+    The name of the file that is being retrieved in this GET message is: /kurose_ross/interactive/index.php
+· What version of HTTP is the client running?
+    The version of HTTP that the client is running is HTTP/1.1
+· What formats of text and images, if any?
+    The format is html and text 
